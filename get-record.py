@@ -2,6 +2,8 @@
 # Not to be reproduced or shared without prior written consent from Cloudera.
 
 
+import processlog as pl
+
 def get_state_temp(one_record):
     """This function retrieves the state of radios and temp from one record"""
     entries = one_record.split(',')
